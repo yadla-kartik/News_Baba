@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Baba</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Styling CSS -->
+     <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" style="width:150px ; padding: 10px;" />
+        <div class="inputSearch desktop">
+            <form id="searchForm">
+              <input type="text" placeholder="Search..." id="searchInput" />
+              <span> <i class="fa-solid fa-search"></i></span>
+            </form>
+          </div>
+        <nav class="desktop">
+            <ul>
+                <li onclick="navsearch('India')">India</li>
+                <li onclick="navsearch('World')">World</li>
+                <li onclick="navsearch('Entertainment')">Entertainment</li>
+                <li onclick="navsearch('Sports')">Sports</li>
+                <li onclick="navsearch('Business')">Business</li>
+                <li onclick="navsearch('Health')">Health</li>
+                <li onclick="navsearch('Technology')">Technology</li>
+            </ul>
+        </nav>
+
+        <div class="menuBtn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+          <div class="mobile hidden">
+            <nav>
+                <ul>
+                    <li onclick="navsearch('India')">India</li>
+                    <li onclick="navsearch('World')">World</li>
+                    <li onclick="navsearch('Entertainment')">Entertainment</li>
+                    <li onclick="navsearch('Sports')">Sports</li>
+                    <li onclick="navsearch('Business')">Business</li>
+                    <li onclick="navsearch('Health')">Health</li>
+                    <li onclick="navsearch('Technology')">Technology</li>
+                </ul>
+        <div class="inputSearch">
+            <form id="searchFormMobile">
+              <input type="text" placeholder="Search..."  id="searchInputMobile"/>
+              <span> <i class="fa-solid fa-search"></i></span>
+            </div>
+            </form>
+          </div>
+        </header>
+    
+        <!-- main  -->
+    
+        <main>
+
+        </main>
+    
+        <script src="script.js"></script>
+</body>
+</html>
